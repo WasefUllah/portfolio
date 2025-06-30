@@ -2,39 +2,41 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="py-12 px-4 md:px-8 lg:px-16 bg-base-100 text-base-content">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6">
-          About Me
+    <section className="py-12 px-4 md:px-10 bg-base-100 text-base-content">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
+          👋 About Me
         </h2>
-        <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
-          I'm{" "}
+        <p className="text-base sm:text-lg leading-relaxed text-justify">
+          Hey there! I'm{" "}
           <span className="font-semibold text-primary">Lobib Wasef Ullah</span>,
           an enthusiastic
-          <span className="font-medium text-secondary">
+          <span className="text-secondary font-medium">
             {" "}
-            ICT student at Bangladesh University of Professionals (BUP)
+            ICT student at Bangladesh University of Professionals
           </span>
-          , deeply passionate about turning ideas into digital reality. I
-          specialize in crafting responsive and user-friendly web and mobile
-          apps using <span className="font-medium">React</span>,{" "}
-          <span className="font-medium">Tailwind CSS</span>, and{" "}
-          <span className="font-medium">React Native</span>.
+          . My journey into programming began with C and C++, where I discovered
+          my love for problem-solving and logical thinking. Over time, I
+          transitioned into web and mobile development, diving into technologies
+          like{" "}
+          <span className="font-medium">
+            React, Tailwind CSS, Firebase,
+          </span>{" "}
+          and <span className="font-medium">React Native</span>.
         </p>
 
-        <p className="text-base sm:text-lg md:text-xl leading-relaxed mt-4 text-justify">
-          From building functional platforms like{" "}
-          <span className="font-semibold">PacePulse</span> to experimenting with
-          full-stack tools, I'm on a mission to become a well-rounded developer.
-          I'm also preparing to pursue higher studies abroad to enhance my
-          skills, collaborate globally, and build tech that solves real-world
-          problems.
+        <p className="text-base sm:text-lg leading-relaxed mt-4 text-justify">
+          I enjoy building meaningful and user-friendly apps—whether it's a
+          full-stack freelancing platform or a hall management system for
+          students. Clean UI, seamless UX, and solving real-life problems
+          through code are what excite me the most.
         </p>
 
-        <p className="text-base sm:text-lg md:text-xl leading-relaxed mt-4 text-justify">
-          I believe in continuous learning, meaningful collaboration, and using
-          technology to create lasting value. Let’s connect and build something
-          impactful together!
+        <p className="text-base sm:text-lg leading-relaxed mt-4 text-justify">
+          Outside of coding, I’m a big fan of football ⚽—both watching and
+          playing when I get the chance. I also love exploring tech gadgets and
+          occasionally dive into digital design. I believe in lifelong learning
+          and aim to pursue higher studies abroad to grow as a global developer.
         </p>
       </div>
     </section>
