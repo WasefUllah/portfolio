@@ -6,7 +6,7 @@ import { LuGithub } from "react-icons/lu";
 import { animate, delay, motion } from "framer-motion";
 const Hero = () => {
   return (
-    <div className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center my-4  py-4">
+    <div className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center my-4  py-4 ">
       <div className=" flex items-center ">
         <motion.div
           initial={{ x: -50, opacity: 0 }}

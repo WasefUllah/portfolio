@@ -26,7 +26,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="w-11/12 mx-auto flex justify-between items-center p-1 md:p-2 lg:p-4 my-2 sticky top-2">
+    <div className="w-11/12 mx-auto flex justify-between items-center p-1 md:p-2 lg:p-4 my-2 sticky top-0 bg-base-100 z-10 ">
       <div>
         <motion.img
           initial={{ opacity: 0, x: -50 }}
