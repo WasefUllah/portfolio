@@ -58,7 +58,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4 }}
               className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
             >
-              <a href="">Contact me</a>
+              <a href="#contact">Contact me</a>
             </motion.p>
           </div>
         </motion.div>
