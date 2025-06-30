@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../assets/logo.png";
 // eslint-disable-next-line no-unused-vars
 import { animate, delay, motion } from "framer-motion";
-import { Link } from "react-router";
 
 const Navbar = () => {
   const navMenu = [
