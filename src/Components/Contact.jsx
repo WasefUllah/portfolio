@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 px-4 md:px-10 bg-base-100 text-base-content">
+    <section
+      id="contact"
+      className="py-12 px-4 md:px-10 bg-base-100 text-base-content"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold mb-10 mt-14 text-center">
           Contact Me
@@ -12,12 +15,16 @@ const Contact = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-xl font-semibold">📧 Email</h3>
-              <p className="text-lg text-white badge badge-primary">wasefudvash@gmail.com</p>{" "}
+              <p className="text-lg text-white badge badge-primary">
+                wasefudvash@gmail.com
+              </p>{" "}
               {/* Replace with your real email */}
             </div>
             <div>
               <h3 className="text-xl font-semibold">📱 Phone</h3>
-              <p className="text-lg text-white badge badge-primary">+8801619043359</p>{" "}
+              <p className="text-lg text-white badge badge-primary">
+                +8801619043359
+              </p>{" "}
               {/* Replace with your real number */}
             </div>
             <div>
@@ -28,10 +35,15 @@ const Contact = () => {
 
           {/* Right Side - Contact Form */}
           <form
-            action="https://formsubmit.co/wasefudvash@gmail.com" // Replace with your real email or EmailJS/form backend
+            action="https://api.web3forms.com/submit"
             method="POST"
             className="space-y-4"
           >
+            <input
+              type="hidden"
+              name="access_key"
+              value={import.meta.env.VITE_ACCESS_KEY}
+            ></input>
             <input
               type="text"
               name="name"
