@@ -23,12 +23,12 @@ const Navbar = () => {
       path: "#education",
       delay: 0.6,
     },
-    {
-      id: 4,
-      title: "Experience",
-      path: "/experience",
-      delay: 0.8,
-    },
+    // {
+    //   id: 4,
+    //   title: "Experience",
+    //   path: "/experience",
+    //   delay: 0.8,
+    // },
   ];
 
   return (
