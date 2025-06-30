@@ -2,26 +2,33 @@ import React from "react";
 import logo from "../assets/logo.png";
 // eslint-disable-next-line no-unused-vars
 import { animate, delay, motion } from "framer-motion";
+import { Link } from "react-router";
 
 const Navbar = () => {
   const navMenu = [
     {
       id: 1,
-      title: "Projects",
-      path: "/projects",
+      title: "Home",
+      path: "#home",
       delay: 0.2,
     },
     {
       id: 2,
-      title: "Education",
-      path: "/education",
+      title: "Projects",
+      path: "/projects",
       delay: 0.4,
     },
     {
       id: 3,
+      title: "Education",
+      path: "/education",
+      delay: 0.6,
+    },
+    {
+      id: 4,
       title: "Experience",
       path: "/experience",
-      delay: 0.6,
+      delay: 0.8,
     },
   ];
 

@@ -6,7 +6,7 @@ import { LuGithub } from "react-icons/lu";
 import { animate, delay, motion } from "framer-motion";
 const Hero = () => {
   return (
-    <div className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center my-4  py-4 ">
+    <div id="home" className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center mt-10  py-4 ">
       <div className=" flex items-center ">
         <motion.div
           initial={{ x: -50, opacity: 0 }}
@@ -50,7 +50,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4 }}
               className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
             >
-              <a href="">About me</a>
+              <a href="#aboutMe ">About me</a>
             </motion.p>
             <motion.p
               initial={{ x: -100, opacity: 0 }}

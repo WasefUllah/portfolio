@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="py-12 px-4 md:px-10 bg-base-100 text-base-content">
+    <section id="aboutMe" className="py-12 px-4 md:px-10 bg-base-100  text-base-content">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
-          👋 About Me
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center pt-14">
+         About Me
         </h2>
         <p className="text-base sm:text-lg leading-relaxed text-justify">
           Hey there! I'm{" "}
