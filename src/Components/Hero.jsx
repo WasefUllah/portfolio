@@ -7,8 +7,13 @@ import { animate, delay, motion } from "framer-motion";
 const Hero = () => {
   return (
     <div className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center my-4  py-4">
-      <div className=" flex items-center h-52">
-        <div className="flex-1/2 ">
+      <div className=" flex items-center ">
+        <motion.div
+          initial={{ x: -50, opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="flex-1/2 "
+        >
           <motion.h1
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -38,7 +43,25 @@ const Hero = () => {
               <CiLinkedin size={25} className="text-primary" />
             </a>
           </motion.p>
-        </div>
+          <div className="mt-3 flex justify-start">
+            <motion.p
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 0.4 }}
+              className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
+            >
+              <a href="">About me</a>
+            </motion.p>
+            <motion.p
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 1, delay: 0.4 }}
+              className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
+            >
+              <a href="">Contact me</a>
+            </motion.p>
+          </div>
+        </motion.div>
       </div>
       <motion.div
         initial={{ x: 50, opacity: 0 }}
