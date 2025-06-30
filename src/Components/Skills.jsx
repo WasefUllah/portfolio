@@ -52,7 +52,8 @@ const Skills = () => {
       initial={{ x: -50, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.4 }}
-      className="py-12 px-4 md:px-10 bg-base-100 text-base-content"
+      id="skills"
+      className="py-12 px-4 md:px-10 bg-base-100 text-base-content w-11/12 mx-auto"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">My Skills</h2>
