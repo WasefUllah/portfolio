@@ -15,7 +15,7 @@ const Navbar = () => {
     {
       id: 2,
       title: "Projects",
-      path: "/projects",
+      path: "#projects",
       delay: 0.4,
     },
     {

@@ -44,6 +44,10 @@ const skills = [
     name: "Java",
     logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
   },
+  {
+    name: "Express.js",
+    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+  },
 ];
 
 const Skills = () => {
@@ -53,7 +57,7 @@ const Skills = () => {
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.8, delay: 0.4 }}
       id="skills"
-      className="py-12 px-4 md:px-10 bg-base-100 text-base-content w-11/12 mx-auto"
+      className="py-12 px-4 md:px-10 mt-10 bg-base-100 text-base-content w-11/12 mx-auto"
     >
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">My Skills</h2>
@@ -61,7 +65,7 @@ const Skills = () => {
           direction="left"
           speed={40}
           pauseOnHover={true}
-          className="overflow-hidden"
+          className="overflow-hidden pt-4"
         >
           {skills.map((skill, idx) => (
             <div

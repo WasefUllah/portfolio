@@ -3,6 +3,7 @@ import AboutMe from "./Components/AboutMe";
 import Education from "./Components/Education";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Education></Education>
+      <Projects></Projects>
     </div>
   );
 }
