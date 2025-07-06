@@ -63,14 +63,16 @@ const Navbar = () => {
         ))}
       </ul>
       <div>
-        <motion.button
+        <motion.a
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
+          href="/resume.pdf"
+          download="Lobib-Wasef-Ullah-Resume.pdf"
           className="btn btn-xs md:btn-md lg:btn-lg btn-primary"
         >
           Resume
-        </motion.button>
+        </motion.a>
       </div>
     </div>
 
