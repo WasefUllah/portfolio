@@ -16,7 +16,7 @@ const Contact = () => {
             <div>
               <h3 className="text-xl font-semibold">📧 Email</h3>
               <p className="text-lg text-white badge badge-primary">
-                wasefudvash@gmail.com
+                lobibwasefullah@gmail.com
               </p>{" "}
               {/* Replace with your real email */}
             </div>
