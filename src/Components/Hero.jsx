@@ -39,13 +39,13 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.4 }}
             className="flex justify-start gap-2"
           >
-            <a href="https://github.com/WasefUllah">
+            <a href="https://github.com/WasefUllah" target="blank">
               <LuGithub size={25} className="text-primary" />
             </a>
-            <a href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/">
+            <a href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/" target="blank">
               <CiLinkedin size={25} className="text-primary" />
             </a>
-            <a href="https://www.facebook.com/lwasef.ullah">
+            <a href="https://www.facebook.com/lwasef.ullah" target="blank">
               <CiFacebook size={25} className="text-primary" />
             </a>
           </motion.p>

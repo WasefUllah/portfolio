@@ -9,10 +9,10 @@ const Footer = () => {
       <aside>
         <a href="#navbar">
           <img
-          src={logo}
-          alt="logo"
-          className="w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 rounded-full"
-        />
+            src={logo}
+            alt="logo"
+            className="w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 rounded-full"
+          />
         </a>
 
         <p className="font-bold">
@@ -23,13 +23,16 @@ const Footer = () => {
       </aside>
       <nav>
         <div className="grid grid-flow-col gap-4">
-          <a href="https://github.com/WasefUllah">
+          <a href="https://github.com/WasefUllah" target="blank">
             <LuGithub size={25} className="text-white" />
           </a>
-          <a href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/">
+          <a
+            href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/"
+            target="blank"
+          >
             <CiLinkedin size={25} className="text-white" />
           </a>
-          <a href="https://www.facebook.com/lwasef.ullah">
+          <a href="https://www.facebook.com/lwasef.ullah" target="blank">
             <CiFacebook size={25} className="text-white" />
           </a>
         </div>
