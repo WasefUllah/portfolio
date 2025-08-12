@@ -1,17 +1,19 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { LuGithub } from "react-icons/lu";
-import { CiLinkedin } from "react-icons/ci";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
     <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
       <aside>
-        <img
+        <a href="#navbar">
+          <img
           src={logo}
           alt="logo"
           className="w-10 h-10 md:w-14 md:h-14 lg:w-20 lg:h-20 rounded-full"
         />
+        </a>
 
         <p className="font-bold">
           Lobib Wasef Ullah
@@ -26,6 +28,9 @@ const Footer = () => {
           </a>
           <a href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/">
             <CiLinkedin size={25} className="text-white" />
+          </a>
+          <a href="https://www.facebook.com/lwasef.ullah">
+            <CiFacebook size={25} className="text-white" />
           </a>
         </div>
       </nav>

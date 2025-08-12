@@ -1,12 +1,15 @@
 import React from "react";
-import herobg2 from "../assets/bgremovewasef.png";
-import { CiLinkedin } from "react-icons/ci";
+import herobg2 from "../assets/wasef.png";
+import { CiFacebook, CiLinkedin } from "react-icons/ci";
 import { LuGithub } from "react-icons/lu";
 // eslint-disable-next-line no-unused-vars
 import { animate, delay, motion } from "framer-motion";
 const Hero = () => {
   return (
-    <div id="home" className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center mt-10  py-4 ">
+    <div
+      id="home"
+      className="w-11/12 mx-auto  flex flex-col md:flex-row justify-center gap-10 items-center mt-10  py-4 "
+    >
       <div className=" flex items-center ">
         <motion.div
           initial={{ x: -50, opacity: 0 }}
@@ -42,37 +45,22 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/lobib-wasef-ullah-664993339/">
               <CiLinkedin size={25} className="text-primary" />
             </a>
+            <a href="https://www.facebook.com/lwasef.ullah">
+              <CiFacebook size={25} className="text-primary" />
+            </a>
           </motion.p>
-          <div className="mt-3 flex justify-start">
-            <motion.p
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.4 }}
-              className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
-            >
-              <a href="#aboutMe ">About me</a>
-            </motion.p>
-            <motion.p
-              initial={{ x: -100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.4 }}
-              className="mr-4 rounded-full py-2 px-4 text-white bg-primary  hover:text-primary  hover:border-1 hover:bg-white hover:border-primary"
-            >
-              <a href="#contact">Contact me</a>
-            </motion.p>
-          </div>
         </motion.div>
       </div>
       <motion.div
         initial={{ x: 50, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
-        className="rounded-full border-primary  border-4 h-96 w-96 relative "
+        className="rounded-full border-primary border-4 lg:h-[400px] lg:w-[400px] h-[320px] w-[320px] md:h-[350px] md:w-[350px] relative "
       >
         <img
           src={herobg2}
           alt=""
-          className="absolute bottom-0 h-[500px] rounded-full"
+          className="absolute bottom-0  w-full rounded-full"
         />
       </motion.div>
     </div>
